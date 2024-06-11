@@ -1,0 +1,9 @@
+# train and val data as 1) directory: path/images/, 2) file: path/images.txt, or 3) list: [path1/images/, path2/images/]
+train: /home/kevin6191015/AICUP_DATASET/yolo/train
+val: /home/kevin6191015/AICUP_DATASET/yolo/valid
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'car' ]
